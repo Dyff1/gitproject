@@ -1,0 +1,39 @@
+:root {
+    --main-color: #333;
+    --second-color: #7462b8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 8%;
+}
+
+.header__title {
+    font-size: 2rem;
+    margin: 0;
+    color: var(--second-color);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (max-width: 600px) {
+    .header__title {
+        font-size: 1.5rem;
+    }
+}
